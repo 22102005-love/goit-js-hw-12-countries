@@ -13,16 +13,24 @@ body {
     Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif,
     'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
 }
+.input {
+  font-size: 28px;
+  line-height: 1.2;
+  text-align: center;
+  margin: 40px;
+  width: 538px;
+}
 .country {
   font-size: 68px;
-  margin: 0 360px;
+  margin: 0 500px 40px 500px;
 }
 .form-country {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 .flag {
   width: 500px;
+  height: 335px;
 }
 .text {
   font-weight: 800;
@@ -40,4 +48,11 @@ body {
 .flag {
   width: 350px;
   height: 350px;
+}
+.listCountry {
+  font-size: 24px;
+  font-weight: bold;
+  max-width: 500px;
+  text-align: left;
+  margin: 0 auto;
 }
